@@ -1,8 +1,8 @@
 #!/bin/bash -x
 echo "Enter a number"
-read num1
+num1 = 2
 echo "Enter another number"
-read num2
+num2 = 4
 echo "The total of the two entered number is" $(($num1 + $num2))
 
 if [ $num1 -gt $num2 ]; then
